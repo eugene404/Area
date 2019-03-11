@@ -6,22 +6,22 @@ namespace CalculateArea
 {
     class Circle  
     {
-        double circl;
+       
         double CircleArea;
-        double CircleRadius;
+        int CircleRadius;
+       
 
-        public int getRadius()
+        public void getRadius()
         {
             Console.WriteLine("Please enter Circle radius in meters to Calculate Area");
-            int rad = Convert.ToInt32(Console.ReadLine());
-            return rad;
-           
+            CircleRadius = Convert.ToInt32(Console.ReadLine());
+            CalculateArea();
+            
         }
         public void CalculateArea()
         {
 
-            CircleRadius = getRadius();
-            CircleArea = CircleRadius * Math.PI;
+            CircleArea = CircleRadius  * Math.PI;
             Console.WriteLine("Your Circles square meters is : " + CircleArea);
         }
 
