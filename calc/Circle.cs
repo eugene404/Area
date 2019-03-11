@@ -18,12 +18,7 @@ namespace CalculateArea
             CalculateArea();
             
         }
-        public void CalculateArea()
-        {
-
-            CircleArea = CircleRadius  * Math.PI;
-            Console.WriteLine("Your Circles square meters is : " + CircleArea);
-        }
+        
 
     }
 }
