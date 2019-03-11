@@ -4,16 +4,33 @@ namespace CalculateArea
 {
     class Area 
     {
-        
+        string shape;
 
-        static void Main(string[] args)
+        public void ChooseShape()
         {
 
-            Circle inst = new Circle();
-            inst.CalculateArea(5);
+            Console.WriteLine("Please choose what shape you want to Calculate");
+            Console.WriteLine("Circle", " Rectangle", "Square");
+            shape = Console.ReadLine();
+
+            if (shape == "Circle" || shape == "circle")
+            {
+                Circle inst = new Circle();
+                inst.getRadius();
+
+            }
+
+        }
+        static void Main(string[] args)
+        {
+            Area inst = new Area();
+
+            inst.ChooseShape();
+
+            Console.ReadLine();
             
 
-            Console.WriteLine("Hello World!");
+            
         }
     }
 }
