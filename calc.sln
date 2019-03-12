@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.438
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculateArea", "calc\CalculateArea.csproj", "{C2DDECF9-C29E-45A4-A833-9C9BC4348624}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CalculateArea", "calc\CalculateArea.csproj", "{C2DDECF9-C29E-45A4-A833-9C9BC4348624}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "interfaces", "interfaces\interfaces.csproj", "{5D71015D-9745-4626-B3A1-DFC82891C8DE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{C2DDECF9-C29E-45A4-A833-9C9BC4348624}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C2DDECF9-C29E-45A4-A833-9C9BC4348624}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C2DDECF9-C29E-45A4-A833-9C9BC4348624}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D71015D-9745-4626-B3A1-DFC82891C8DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D71015D-9745-4626-B3A1-DFC82891C8DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D71015D-9745-4626-B3A1-DFC82891C8DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D71015D-9745-4626-B3A1-DFC82891C8DE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
